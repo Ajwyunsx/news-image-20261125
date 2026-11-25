@@ -56,7 +56,7 @@
   }
 
   /* lead */
-  .lead { display: flex; gap: 20px; padding: 13px 0 11px 0; border-bottom: 1px solid #17130e; }
+  .lead { display: flex; gap: 20px; padding: 11px 0 9px 0; border-bottom: 1px solid #17130e; }
   .lead-main { flex: 1 1 auto; min-width: 0; }
   .kicker {
     font-family: Helvetica, Arial, sans-serif;
@@ -91,7 +91,7 @@
     display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 1fr 1fr;
     border-bottom: 1px solid #17130e;
   }
-  .cell { padding: 12px 15px 11px 0; border-bottom: 1px solid #c9bfa9; display: flex; flex-direction: column; }
+  .cell { padding: 10px 15px 9px 0; border-bottom: 1px solid #c9bfa9; display: flex; flex-direction: column; }
   .cell:nth-child(3n+2) { padding-left: 15px; border-left: 1px solid #c9bfa9; }
   .cell:nth-child(3n+3) { padding-left: 15px; border-left: 1px solid #c9bfa9; padding-right: 0; }
   .cell:nth-child(n+4) { border-bottom: 0; }
@@ -111,7 +111,7 @@
   .cell .more b { color: #17130e; }
 
   /* pull quote */
-  .quote { border-bottom: 1px solid #17130e; padding: 9px 0 8px 0; display: flex; align-items: flex-start; gap: 13px; }
+  .quote { border-bottom: 1px solid #17130e; padding: 8px 0 6px 0; display: flex; align-items: flex-start; gap: 13px; }
   .quote .mark { font-size: 44px; line-height: 0.7; color: #b31b1b; font-weight: 700; flex: 0 0 auto; padding-top: 6px; }
   .quote .txt { font-size: 18.5px; line-height: 1.24; font-style: italic; letter-spacing: -0.2px; }
   .quote .attr {
@@ -125,7 +125,7 @@
     display: grid; grid-template-columns: 236px 1fr 1fr;
     border-bottom: 1px solid #17130e;
   }
-  .band > div { padding: 9px 15px 8px 0; display: flex; flex-direction: column; }
+  .band > div { padding: 8px 15px 6px 0; display: flex; flex-direction: column; }
   .band > div + div { border-left: 1px solid #c9bfa9; padding-left: 15px; }
   .band > div:last-child { padding-right: 0; }
   .bt-head {
@@ -149,7 +149,7 @@
 
   /* footer */
   .foot {
-    display: flex; justify-content: space-between; align-items: baseline; padding-top: 6px;
+    display: flex; justify-content: space-between; align-items: baseline; padding-top: 5px;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 7.2px; letter-spacing: 1px; text-transform: uppercase; color: #5a5247;
   }
@@ -211,11 +211,11 @@
           <text x="0" y="75.5">India</text>
         </g>
         <path d="M38 82h84" stroke="#17130e" stroke-width="0.8"/>
-        <g font-family="Helvetica, Arial, sans-serif" font-size="5.8" fill="#5a5247">
-          <text x="36" y="92">0</text>
-          <text x="64" y="92">10</text>
-          <text x="92" y="92">20</text>
-          <text x="122" y="92" text-anchor="end">30%</text>
+        <g font-family="Helvetica, Arial, sans-serif" font-size="6.2" fill="#5a5247" text-anchor="middle">
+          <text x="38" y="92">0</text>
+          <text x="66" y="92">10</text>
+          <text x="94" y="92">20</text>
+          <text x="122" y="92">30</text>
         </g>
       </svg>
       <div class="figures">
@@ -250,12 +250,11 @@
     <div class="cell">
       <div class="top">
 <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true">
-          <g fill="none" stroke="#17130e" stroke-width="1.85" stroke-linecap="round">
-            <ellipse cx="12" cy="7" rx="6.4" ry="2.6"/>
-            <path d="M5.6 7v4.2c0 1.4 2.9 2.6 6.4 2.6s6.4-1.2 6.4-2.6V7"/>
-            <path d="M5.6 11.2v4.2c0 1.4 2.9 2.6 6.4 2.6s6.4-1.2 6.4-2.6v-4.2"/>
+          <g fill="none" stroke="#17130e" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3.4 19.4h17.2"/>
+            <path d="M5.2 16.2l4.4-4.8 3.4 3.2 6-7.4"/>
           </g>
-          <circle cx="12" cy="7" r="1.4" fill="#b31b1b"/>
+          <path d="M13.6 7.2h5.4v5.2" fill="none" stroke="#b31b1b" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
         <div class="rk">Middle East · Economy</div>
       </div>
@@ -351,6 +350,7 @@
         <div><span class="lbl">Gold, spot</span><span class="dn">lower</span></div>
         <div><span class="lbl">Dollar index</span><span class="val">higher</span></div>
       </div>
+      <div class="note" style="margin-top:6px">Wall Street shuts on Thursday for Thanksgiving.</div>
     </div>
 
     <div>
